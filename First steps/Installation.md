@@ -1,6 +1,7 @@
 # How to install and use Julia on your computer
 
-To simply use Julia on your terminal, go to https://julialang.org/downloads/ and download ans install Julia on your machine. Then, you can open the program or type ```exec 'PATH/TO/JULIA'```
+To simply use Julia on your terminal, go to <a href="https://julialang.org/downloads/ " title="Julia Language">Julia Downloads</a> and download ans install Julia on your machine. Then, you can open the program or type ```exec 'PATH/TO/JULIA'```
+
 
 If you use vsCode, you also have to instal the Julia extension.
 
@@ -15,6 +16,6 @@ To run the code in vsCode, you can either select the lines you want yo execute a
 
 ![Screen Shot 2022-04-23 at 01 44 30](https://user-images.githubusercontent.com/45129483/164878035-2ef1301e-8e12-45ea-8ea9-01f13f249e5b.png)
 
-Other ways to run code can be found on https://www.julia-vscode.org/docs/stable/userguide/runningcode/.
+Other ways to run code can be found on <a href="https://www.julia-vscode.org/docs/stable/userguide/runningcode/" title="Julia Language">Julia VScode user guide (running code) </a>.
 
-Other useful shortcuts can be found on https://www.julia-vscode.org/docs/stable/userguide/keybindings/.
+Other useful shortcuts can be found on <a href="https://www.julia-vscode.org/docs/stable/userguide/keybindings/" title="Julia Language">Julia VScode user guide (keybindings) </a> .
