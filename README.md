@@ -1,8 +1,8 @@
 # Julia
 
-"Walks like python, run like C"
+### "Walks like python, run like C"
 
-Julia is a high-level, high-performance and dynamic programming language.
+#### Julia is a high-level, high-performance and dynamic programming language.
 
 Useful links:
 <a href="https://julialang.org" title="Julia Language">Julia official Website</a>
@@ -19,4 +19,4 @@ Useful links:
 
 
 
-exec '/Applications/Julia-1.7.app/Contents/Resources/julia/bin/julia'
+<!-- exec '/Applications/Julia-1.7.app/Contents/Resources/julia/bin/julia' -->
