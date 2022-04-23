@@ -10,3 +10,11 @@ Click on ![Screen Shot 2022-04-23 at 01 40 13](https://user-images.githubusercon
 
 
 ### Julia is ready to be used!
+
+To run the code in vsCode, you can either select the lines you want yo execute and press ```shift + enter(windows)/return(mac)``` or click on ```Julia: execute active file in REPL```
+
+![Screen Shot 2022-04-23 at 01 44 30](https://user-images.githubusercontent.com/45129483/164878035-2ef1301e-8e12-45ea-8ea9-01f13f249e5b.png)
+
+Other ways to run code can be found on https://www.julia-vscode.org/docs/stable/userguide/runningcode/.
+
+Other useful shortcuts can be found on https://www.julia-vscode.org/docs/stable/userguide/keybindings/.
