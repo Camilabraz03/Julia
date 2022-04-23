@@ -4,6 +4,10 @@
 #### julia> using Pkg
 #### julia> Pkg.add("Plots")
 
+#### You can also install inside the code by
+#### import Pkg;
+#### Pkg.add("Plots")
+
 #### This procedure installs the package Plots! 
 
 #### Examples taken from: https://docs.juliaplots.org/latest/tutorial/
@@ -32,10 +36,14 @@ plot(x, y, title = "Two Lines", label = ["Line 1" "Line 2"], lw = 3)
 # The Plots package is actually a metapackage, which means it onlys receives the commands and generates the plots using another plot library
 # You can change which plot library you want to use! First you have to install another package (Pkg.add("BackendPackage") on REPL)
 
+#Plotly: Pkg.add("PlotlyJS")
+import Pkg;
+Pkg.add("PlotlyJS")
 x = 1:10; y = rand(10, 2) # 2 columns means two lines
 plotlyjs() # Set the backend to Plotly
 # This plots into the web browser via Plotly
 plot(x, y, title = "This is Plotted using Plotly")
+
 
 gr() # Set the backend to GR
 # This plots using GR
@@ -46,3 +54,6 @@ plot(x, y, title = "This is Plotted using GR")
 savefig("myplot.png") # Saves the CURRENT_PLOT as a .png
 savefig(p, "myplot.pdf") # Saves the plot from p as a .pdf vector graphic
 
+# In vsCode, you can use the keyboard arrows to navigate between plots
+
+# More on plots: https://docs.juliaplots.org/latest/tutorial/
