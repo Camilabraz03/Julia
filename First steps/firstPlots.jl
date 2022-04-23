@@ -47,7 +47,7 @@ plot(x, y, title = "This is Plotted using Plotly")
 
 gr() # Set the backend to GR
 # This plots using GR
-plot(x, y, title = "This is Plotted using GR")
+p = plot(x, y, title = "This is Plotted using GR")
 
 
 # To save yout plots
