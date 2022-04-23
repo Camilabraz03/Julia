@@ -13,7 +13,7 @@ typeof(str)
 
 😸 = "An emoji variable"
 
-# Comments are made using hashtags
+# Comments are done using hashtags
 
 # Basic math
 sum = 11 + 3
@@ -24,4 +24,31 @@ power = 10 ^ 2
 modulus = 101 % 2
 
 
-# Exercise
+#Exercises 1
+
+# 1.1
+
+#https://docs.julialang.org/en/v1/manual/conversion-and-promotion/
+
+x = 12
+typeof(x)
+
+xu = convert(UInt8, x)
+typeof(xu)
+
+
+xf = convert(AbstractFloat, x)
+typeof(xf)
+
+
+ a = Any[1 2 3; 4 5 6]
+convert(Array{Float64}, a)
+
+# 1.2
+
+days = 365
+days_float = convert(AbstractFloat, days)
+typeof(days_float)
+
+@assert days == 365
+@assert days_float == 365.0
