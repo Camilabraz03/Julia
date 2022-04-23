@@ -16,6 +16,13 @@ Useful links:
 
 
 
+I'm using the following links to study:
+<a href="https://docs.julialang.org/en/v1/manual/getting-started/" title="Julia Language">Manual</a>
+
+<a href="https://juliaacademy.com/courses/375479/lectures/5816184" title="Julia Language">Course from JuliaAcademy</a>
+
+<a href="https://www.julia-vscode.org/docs/stable/userguide/plotgallery/#Create-Visualization" title="Julia Language">Julia guide on vsCode</a>
+
 
 
 
