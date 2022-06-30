@@ -20,4 +20,4 @@ end
 x > y ? x : y
 
 x < y && println("jULIA IS COOL")
-X > y && println("This will not be printed")
+x > y && println("This will not be printed")
